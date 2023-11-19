@@ -21,7 +21,7 @@ function wordsToMarks(word){
     //     return prev+next;
     //   },0);
     wordSum = valueAry.reduce((prev,next)=> prev+next);
-console.log(wordSum);
+    console.log(wordSum);
     return wordSum;
 }
 
