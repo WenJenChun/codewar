@@ -37,5 +37,3 @@ const finder = new SmallestIntegerFinder();
 // 使用 findSmallestInt 方法，並傳入一個陣列作為參數
 finder.findSmallestInt([3, 1, 7, 9, 2]); // 這將會印出陣列中的最小整數
 
-
-// fn([34, -345, -1, 100]);
