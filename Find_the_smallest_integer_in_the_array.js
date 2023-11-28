@@ -37,3 +37,19 @@ const finder = new SmallestIntegerFinder();
 // 使用 findSmallestInt 方法，並傳入一個陣列作為參數
 finder.findSmallestInt([3, 1, 7, 9, 2]); // 這將會印出陣列中的最小整數
 
+//==============================================================
+// 其他寫法(1)：
+// 
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     return args.sort((a,b)=>a-b)[0];
+//   }
+// }
+
+
+// 其他寫法(2)：
+// class SmallestIntegerFinder {
+//   findSmallestInt(args) {
+//     return Math.min(...args)
+//   }
+// }
